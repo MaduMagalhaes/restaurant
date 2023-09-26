@@ -6,34 +6,13 @@
     <title>restaurante</title>
     <!-- Adicione o Bootstrap CSS de um CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
 <body>
     <!-- Seu conteúdo vai aqui -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Localização</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=" https://madumagalhaes.github.io/menu/">Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reserva</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Redes Sociais</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<br>
+    
 
 
     <div class="jumbotron">
@@ -42,18 +21,52 @@
             <p class="lead">Um ambiente com pratos incríves para saborear com uma bela paisagem.</p>
             <p>Segunda à sexta, das 14:00 às 20:30</p>
             <p>Sábado das 15:00 às 22:00</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Sobre nós</a>
+            <a class="btn btn-primary btn-lg" href="https://madumagalhaes.github.io/menu/" role="button">Sobre nós</a>
         </div>
     </div>
-
-    <h2>Entrada</h2>
+<br>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="rest.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="resta.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="restau.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br><br>
+    <div class="comidas"><h2>Entrada</h2></div>
+    <div class="position-relative">
     <div class="card-group">
         <div class="card">
-          <img src="creme.jpeg" class="card-img-top" alt="...">
+          <img src="creme.jpeg" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5 class="card-title">Crème Brûlée</h5>
             <p class="card-text">É uma receita preparada com creme de leite, açúcar, ovos e baunilha e finalizada com uma crosta de açúcar queimada. Se você assistiu o filme O Fabuloso Destino de Amélie Poulain então se lembra que um dos grandes prazeres dela era quebrar a casquinha de açúcar com a colher.</p>
-            <p class="card-text"><small class="text-muted">$ 34,00</small></p>
+            <p class="card-text"><small class="text-muted">$ 18,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -61,7 +74,7 @@
           <div class="card-body">
             <h5 class="card-title">Madeleine</h5>
             <p class="card-text">A Madeleine é um bolinho em formato de concha feito à base de ovo. É uma sobremesa tradicional da região de Lorraine. Ideal para acompanhar um café creme bem forte em algum cafézinho charmoso francês.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 15,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -69,19 +82,20 @@
           <div class="card-body">
             <h5 class="card-title">Eclair</h5>
             <p class="card-text">A eclair, ou como chamamos por aqui bomba de chocolate, é preparada com a massa choux, típica dos doces franceses. Pode ser recheada com opções variadas como chocolate, creme, doce de leite.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 7,00</small></p>
           </div>
         </div>
       </div>
-      
-      <h2>Prato principal</h2>
+    </div>
+<br><br>
+<div class="comidas"><h2>Prato principal</h2></div>
         <div class="card-group">
         <div class="card">
           <img src="esc.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Escargot</h5>
             <p class="card-text">Você encontra escargots facilmente nos cardápios dos restaurantes franceses. Durante a Idade Média, conta-se que os escargots eram estocados por prevenção para os dias de escassez. Trata-se de um caracol cozido com alho, salsa e manteiga.</p>
-            <p class="card-text"><small class="text-muted">$ 34,00</small></p>
+            <p class="card-text"><small class="text-muted">$ 65,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -89,7 +103,7 @@
           <div class="card-body">
             <h5 class="card-title">Ratatouille</h5>
             <p class="card-text">Este é um prato típico de Provença que pode ser definido como um prato de legumes picados e temperados. Para que o Ratatouille seja fiel, não pode faltar tomate e beringela. Os outros legumes pimentão, abobrinha e cenouras não são obrigatórios, mas fazem toda a diferença, né?</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 46,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -97,19 +111,19 @@
           <div class="card-body">
             <h5 class="card-title">Boeuf Bourguignon</h5>
             <p class="card-text">Um prato típico que ficou famoso com o filme Julie & Julia, dirigido por Nora Ephron. Trata-se de carne de vaca cozida à exaustão no vinho tinto com legumes. Os franceses comem a carne acompanhada de purê ou pão.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 28,00</small></p>
           </div>
         </div>
       </div>
-      
-      <h2>Sobremesa</h2>
+<br><br>
+<div class="comidas"><h2>Sobremesa</h2></div>
         <div class="card-group">
         <div class="card">
           <img src="mac.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Macaron</h5>
             <p class="card-text">Talvez o Macaron seja o doce mais típico da França. Todo mundo já provou alguma vez ou pelo menos conhece e morre de vontade de comer esse biscoitinho de merengue crocante por fora e macio por dentro. A origem, no entanto, é italiana. O Macaron vem de macarrone, palavra italiana que remete à massa. Mas, foi na França mesmo que o docinho alcançou popularidade.</p>
-            <p class="card-text"><small class="text-muted">$ 34,00</small></p>
+            <p class="card-text"><small class="text-muted">$ 10,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -117,7 +131,7 @@
           <div class="card-body">
             <h5 class="card-title">Clafoutis</h5>
             <p class="card-text">É uma torta de cereja preparada com uma massa leve com leite, açúcar e um creme de farinha. O diferencial é que as cerejas são colocadas inteiras na receita. Vale dizer que Clafoutis é o nome para a torta de cereja. Se você fizer a mesma receita, porém com frutas diferentes, ela leva o nome de Flaugnarde.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 15,00</small></p>
           </div>
         </div>
         <div class="card">
@@ -125,15 +139,15 @@
           <div class="card-body">
             <h5 class="card-title">Petit Gâteau</h5>
             <p class="card-text">Um petit gâteau, é um pequeno bolo criado por Michel Bras em 1981. Nos países de língua francesa, uma sobremesa de petit gâteau com chocolate é conhecida como "gâteau fondant au chocolat" ou simplesmente "chocolat fondant".</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">$ 18,00</small></p>
           </div>
         </div>
       </div>
+<br><br>
 
-
-      <h2>Especial do dia</h2>
+<div class="comidas"><h2>Especial do dia</h2></div>
       <div class="card bg-dark text-white">
-        <img src="espe.jpeg" class="card-img" alt="...">
+        <img src="espe.jpeg" class="card-img" alt="..." style="height: 600px;">
         <div class="card-img-overlay">
           <h5 class="card-title">Escalope de veau a la creme et aux champignons</h5>
           <p class="card-text">A carne do bezerro é macia, extremamente saborosa e sem muita gordura, por isso a mesma é preparada com manteiga e o creme é adicionado em seguida para completar a explosão de sabor!</p>
@@ -141,13 +155,97 @@
         </div>
       </div>
   
+<br><br><br>
 
+
+
+<div class="comidas"><h3>
+    Formulário de reserva
+    <small class="text-muted">Faça já sua reserva</small>
+  </h3></div>
+      <form style="width: 20rem;">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nome da reserva</label>
+            <input type="text" class="form-control" id="exampleInput">
+        </div>
+    
+        <label for="exampleInputEmail1" class="form-label">Horário</label>
+            <input type="text" class="form-control" id="exampleNumber">
+        </div>
+          <select class="form-select" aria-label="Default select example">
+      <option selected>Selecione o dia da reserva</option>
+      <option value="1">Segunda</option>
+      <option value="2">Terça</option>
+      <option value="3">Quarta</option>
+      <option value="4">Quinta</option>
+      <option value="5">Sexta</option>
+      <option value="6">Sábado</option>
+    </select><br>
+    <strong>Para o cancelamento da reserva, deve-se fazer no máximo 12h antes do horário da reserva.</strong>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+<br><br>
+
+<div class="comidas"><h3>
+  Pedido online
+  <small class="text-muted">Faça já seu pedido</small>
+</h3></div>
+<div class="um">
+<form class="pedido" style="width: 20rem;">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="exampleInput">
+</div>
+<div class="mb-3">
+  <label for="exampleInputEmail1" class="form-label">Informe seu pedido</label>
+  <input type="text" class="form-control" id="exampleInput">
+</div>
+<div class="mb-3">
+  <input type="radio" name="rad">Retirada<br>
+  <input type="radio" name="rad">Entrega<br>
+</div>
+<button type="submit" class="btn btn-primary">Enviar</button><br>
+<strong>Entregamos para locais de até 25km de distância de nosso estabelecimento, tempo estimado de entrega é de até 30min.</strong>
+</form>
+</div>
+
+<br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">R. Bonjour, 17. Paris, França <br>Tel: 2546-5842 <br>Email: uiui@gmail.com</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="comidas"><h3>
+          Envie perguntas
+        </h3></div><br>
+        <button type="button" class="btn btn-primary position-relative">
+          Caixa de entrada
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </button><br><br>
+        <form>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Faça uma pergunta</label>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      </div>
+    </div>
+  </div>
+
+  
     
     <!-- Adicione o JavaScript do Bootstrap e o Popper.js (necessário para alguns componentes do Bootstrap) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
 
